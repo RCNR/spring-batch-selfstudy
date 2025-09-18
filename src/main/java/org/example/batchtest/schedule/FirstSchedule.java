@@ -19,7 +19,7 @@ public class FirstSchedule {
 
     private final JobRegistry jobRegistry;
 
-    @Scheduled(cron = "10 * * * * *", zone = "Asia/Seoul")
+//    @Scheduled(cron = "10 * * * * *", zone = "Asia/Seoul")
     public void runFirstJob() throws  Exception {
 
         System.out.println("first schedule run");
